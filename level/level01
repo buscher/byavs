@@ -1,0 +1,435 @@
+<BYAVSLEVEL>
+ <global bgimg="bg02.png" height="600" width="2048">
+  <startpos height="300" width="30"/>
+  <shipsize height="60" width="60"/>
+  <hitboxes count="3">
+   <hitbox0 y1="10" y2="40" x1="0" x2="5"/>
+   <hitbox1 y1="0" y2="60" x1="5" x2="45"/>
+   <hitbox2 y1="10" y2="40" x1="50" x2="10"/>
+  </hitboxes>
+ </global>
+ <objects count="6">
+  <object0 image="object0.png">
+   <size y1="549" y2="51" x1="0" x2="2048"/>
+  </object0>
+  <object1 image="object1.png">
+   <size y1="100" y2="200" x1="400" x2="50"/>
+  </object1>
+  <object2 image="object2.png">
+   <size y1="100" y2="50" x1="450" x2="200"/>
+  </object2>
+  <object3 image="object3.png">
+   <size y1="250" y2="200" x1="650" x2="50"/>
+  </object3>
+  <object4 image="object1.png">
+   <size y1="450" y2="100" x1="650" x2="50"/>
+  </object4>
+  <object5 image="crap-moon.png">
+   <size y1="0" y2="50" x1="850" x2="200"/>
+   <hitboxes count="7">
+    <hitbox0 y1="0" y2="20" x1="0" x2="10"/>
+    <hitbox1 y1="0" y2="35" x1="10" x2="20"/>
+    <hitbox2 y1="0" y2="45" x1="30" x2="40"/>
+    <hitbox3 y1="0" y2="50" x1="70" x2="60"/>
+    <hitbox4 y1="0" y2="45" x1="130" x2="40"/>
+    <hitbox5 y1="0" y2="35" x1="170" x2="20"/>
+    <hitbox6 y1="0" y2="20" x1="190" x2="10"/>
+   </hitboxes>
+  </object5>
+ </objects>
+ <enemies count="31">
+  <enemy0 health="50" speed="160" imagemodifier="1" trigger="800" image="enemy0.png">
+   <size y1="200" y2="60" x1="800" x2="60"/>
+   <direction count="7">
+    <direction0 y1="275" x1="700"/>
+    <direction1 y1="300" x1="600"/>
+    <direction2 y1="275" x1="500"/>
+    <direction3 y1="200" x1="400"/>
+    <direction4 y1="125" x1="300"/>
+    <direction5 y1="100" x1="200"/>
+    <direction6 y1="125" x1="100"/>
+   </direction>
+   <hitboxes count="2">
+    <hitbox0 y1="18" y2="20" x1="0" x2="60"/>
+    <hitbox1 y1="0" y2="60" x1="30" x2="23"/>
+   </hitboxes>
+  </enemy0>
+  <enemy1 health="50" speed="160" imagemodifier="1" trigger="820" image="enemy0.png">
+   <size y1="200" y2="60" x1="820" x2="60"/>
+   <direction count="7">
+    <direction0 y1="275" x1="720"/>
+    <direction1 y1="300" x1="620"/>
+    <direction2 y1="275" x1="520"/>
+    <direction3 y1="200" x1="420"/>
+    <direction4 y1="125" x1="320"/>
+    <direction5 y1="100" x1="220"/>
+    <direction6 y1="125" x1="120"/>
+   </direction>
+   <hitboxes count="2">
+    <hitbox0 y1="18" y2="20" x1="0" x2="60"/>
+    <hitbox1 y1="0" y2="60" x1="30" x2="23"/>
+   </hitboxes>
+  </enemy1>
+  <enemy2 health="50" speed="160" imagemodifier="1" trigger="840" image="enemy0.png">
+   <size y1="200" y2="60" x1="840" x2="60"/>
+   <direction count="7">
+    <direction0 y1="275" x1="740"/>
+    <direction1 y1="300" x1="640"/>
+    <direction2 y1="275" x1="540"/>
+    <direction3 y1="200" x1="440"/>
+    <direction4 y1="125" x1="340"/>
+    <direction5 y1="100" x1="240"/>
+    <direction6 y1="125" x1="140"/>
+   </direction>
+   <hitboxes count="2">
+    <hitbox0 y1="18" y2="20" x1="0" x2="60"/>
+    <hitbox1 y1="0" y2="60" x1="30" x2="23"/>
+   </hitboxes>
+  </enemy2>
+  <enemy3 health="50" speed="160" imagemodifier="1" trigger="860" image="enemy0.png">
+   <size y1="200" y2="60" x1="860" x2="60"/>
+   <direction count="7">
+    <direction0 y1="275" x1="760"/>
+    <direction1 y1="300" x1="660"/>
+    <direction2 y1="275" x1="560"/>
+    <direction3 y1="200" x1="460"/>
+    <direction4 y1="125" x1="360"/>
+    <direction5 y1="100" x1="260"/>
+    <direction6 y1="125" x1="160"/>
+   </direction>
+   <hitboxes count="2">
+    <hitbox0 y1="18" y2="20" x1="0" x2="60"/>
+    <hitbox1 y1="0" y2="60" x1="30" x2="23"/>
+   </hitboxes>
+  </enemy3>
+  <enemy4 health="50" speed="160" imagemodifier="1" trigger="880" image="enemy0.png">
+   <size y1="200" y2="60" x1="880" x2="60"/>
+   <direction count="7">
+    <direction0 y1="275" x1="780"/>
+    <direction1 y1="300" x1="680"/>
+    <direction2 y1="275" x1="580"/>
+    <direction3 y1="200" x1="480"/>
+    <direction4 y1="125" x1="380"/>
+    <direction5 y1="100" x1="280"/>
+    <direction6 y1="125" x1="180"/>
+   </direction>
+   <hitboxes count="2">
+    <hitbox0 y1="18" y2="20" x1="0" x2="60"/>
+    <hitbox1 y1="0" y2="60" x1="30" x2="23"/>
+   </hitboxes>
+  </enemy4>
+  <enemy5 health="100" speed="150" imagemodifier="1" trigger="940" image="enemy1.png">
+   <size y1="180" y2="60" x1="940" x2="60"/>
+   <direction count="1">
+    <direction0 y1="180" x1="120"/>
+   </direction>
+   <hitboxes count="2">
+    <hitbox0 y1="18" y2="20" x1="0" x2="60"/>
+    <hitbox1 y1="0" y2="60" x1="30" x2="23"/>
+   </hitboxes>
+  </enemy5>
+  <enemy6 health="50" speed="180" imagemodifier="0" trigger="900" image="enemy0.png">
+   <size y1="480" y2="60" x1="100" x2="60"/>
+   <direction count="1">
+    <direction0 y1="480" x1="1200"/>
+   </direction>
+   <hitboxes count="2">
+    <hitbox0 y1="18" y2="20" x1="0" x2="60"/>
+    <hitbox1 y1="0" y2="60" x1="6" x2="23"/>
+   </hitboxes>
+  </enemy6>
+  <enemy7 health="100" speed="160" imagemodifier="1" trigger="1000" fireinterval="1000" image="enemy2.png">
+   <size y1="180" y2="60" x1="1100" x2="60"/>
+   <direction count="1">
+    <direction0 y1="180" x1="200"/>
+   </direction>
+   <hitboxes count="2">
+    <hitbox0 y1="18" y2="20" x1="0" x2="60"/>
+    <hitbox1 y1="0" y2="60" x1="30" x2="23"/>
+   </hitboxes>
+  </enemy7>
+  <enemy8 health="30" speed="110" imagemodifier="1" trigger="1100" image="enemy3.png">
+   <size y1="180" y2="60" x1="1100" x2="60"/>
+   <direction count="1">
+    <direction0 y1="180" x1="200"/>
+   </direction>
+   <hitboxes count="3">
+    <hitbox0 y1="10" y2="40" x1="0" x2="5"/>
+    <hitbox1 y1="0" y2="60" x1="5" x2="45"/>
+    <hitbox2 y1="10" y2="40" x1="50" x2="10"/>
+   </hitboxes>
+  </enemy8>
+  <enemy9 health="30" speed="110" imagemodifier="1" trigger="1100" image="enemy3.png">
+   <size y1="250" y2="60" x1="1100" x2="60"/>
+   <direction count="1">
+    <direction0 y1="250" x1="200"/>
+   </direction>
+   <hitboxes count="3">
+    <hitbox0 y1="10" y2="40" x1="0" x2="5"/>
+    <hitbox1 y1="0" y2="60" x1="5" x2="45"/>
+    <hitbox2 y1="10" y2="40" x1="50" x2="10"/>
+   </hitboxes>
+  </enemy9>
+  <enemy10 health="30" speed="110" imagemodifier="1" trigger="1100" image="enemy3.png">
+   <size y1="320" y2="60" x1="1100" x2="60"/>
+   <direction count="1">
+    <direction0 y1="320" x1="200"/>
+   </direction>
+   <hitboxes count="3">
+    <hitbox0 y1="10" y2="40" x1="0" x2="5"/>
+    <hitbox1 y1="0" y2="60" x1="5" x2="45"/>
+    <hitbox2 y1="10" y2="40" x1="50" x2="10"/>
+   </hitboxes>
+  </enemy10>
+  <enemy11 health="30" speed="110" imagemodifier="1" trigger="1100" image="enemy3.png">
+   <size y1="110" y2="60" x1="1100" x2="60"/>
+   <direction count="1">
+    <direction0 y1="110" x1="200"/>
+   </direction>
+   <hitboxes count="3">
+    <hitbox0 y1="10" y2="40" x1="0" x2="5"/>
+    <hitbox1 y1="0" y2="60" x1="5" x2="45"/>
+    <hitbox2 y1="10" y2="40" x1="50" x2="10"/>
+   </hitboxes>
+  </enemy11>
+  <enemy12 health="30" speed="110" imagemodifier="1" trigger="1100" image="enemy3.png">
+   <size y1="390" y2="60" x1="1100" x2="60"/>
+   <direction count="1">
+    <direction0 y1="390" x1="200"/>
+   </direction>
+   <hitboxes count="3">
+    <hitbox0 y1="10" y2="40" x1="0" x2="5"/>
+    <hitbox1 y1="0" y2="60" x1="5" x2="45"/>
+    <hitbox2 y1="10" y2="40" x1="50" x2="10"/>
+   </hitboxes>
+  </enemy12>
+  <enemy13 health="50" speed="110" imagemodifier="0" trigger="1150" fireinterval="1200" image="enemy2.png">
+   <size y1="390" y2="60" x1="300" x2="60"/>
+   <direction count="1">
+    <direction0 y1="390" x1="1500"/>
+   </direction>
+   <hitboxes count="2">
+    <hitbox0 y1="18" y2="20" x1="0" x2="60"/>
+    <hitbox1 y1="0" y2="60" x1="6" x2="23"/>
+   </hitboxes>
+  </enemy13>
+  <enemy14 health="50" speed="110" imagemodifier="0" trigger="1150" fireinterval="1200" image="enemy2.png">
+   <size y1="90" y2="60" x1="300" x2="60"/>
+   <direction count="1">
+    <direction0 y1="90" x1="1500"/>
+   </direction>
+   <hitboxes count="2">
+    <hitbox0 y1="18" y2="20" x1="0" x2="60"/>
+    <hitbox1 y1="0" y2="60" x1="6" x2="23"/>
+   </hitboxes>
+  </enemy14>
+  <enemy15 health="50" speed="110" imagemodifier="1" trigger="1220" image="enemy1.png">
+   <size y1="390" y2="60" x1="1220" x2="60"/>
+   <direction count="1">
+    <direction0 y1="90" x1="500"/>
+   </direction>
+   <hitboxes count="2">
+    <hitbox0 y1="18" y2="20" x1="0" x2="60"/>
+    <hitbox1 y1="0" y2="60" x1="30" x2="23"/>
+   </hitboxes>
+  </enemy15>
+  <enemy16 health="50" speed="110" imagemodifier="1" trigger="1220" image="enemy1.png">
+   <size y1="90" y2="60" x1="1220" x2="60"/>
+   <direction count="1">
+    <direction0 y1="390" x1="500"/>
+   </direction>
+   <hitboxes count="2">
+    <hitbox0 y1="18" y2="20" x1="0" x2="60"/>
+    <hitbox1 y1="0" y2="60" x1="30" x2="23"/>
+   </hitboxes>
+  </enemy16>
+  <enemy17 health="150" speed="80" imagemodifier="1" trigger="1350" image="enemy4.png">
+   <size y1="150" y2="70" x1="1350" x2="120"/>
+   <direction count="1">
+    <direction0 y1="150" x1="500"/>
+   </direction>
+   <hitboxes count="3">
+    <hitbox0 y1="24" y2="23" x1="0" x2="36"/>
+    <hitbox1 y1="9" y2="54" x1="37" x2="43"/>
+    <hitbox2 y1="0" y2="69" x1="80" x2="36"/>
+   </hitboxes>
+  </enemy17>
+  <enemy18 health="150" speed="80" imagemodifier="1" trigger="1350" image="enemy4.png">
+   <size y1="280" y2="70" x1="1350" x2="120"/>
+   <direction count="1">
+    <direction0 y1="280" x1="500"/>
+   </direction>
+   <hitboxes count="3">
+    <hitbox0 y1="24" y2="23" x1="0" x2="36"/>
+    <hitbox1 y1="9" y2="54" x1="37" x2="43"/>
+    <hitbox2 y1="0" y2="69" x1="80" x2="36"/>
+   </hitboxes>
+   <item damageincrease="0" firetype="1" image="upgrade0.png"/>
+  </enemy18>
+  <enemy19 health="150" speed="80" imagemodifier="1" trigger="1350" image="enemy4.png">
+   <size y1="410" y2="70" x1="1350" x2="120"/>
+   <direction count="1">
+    <direction0 y1="410" x1="500"/>
+   </direction>
+   <hitboxes count="3">
+    <hitbox0 y1="24" y2="23" x1="0" x2="36"/>
+    <hitbox1 y1="9" y2="54" x1="37" x2="43"/>
+    <hitbox2 y1="0" y2="69" x1="80" x2="36"/>
+   </hitboxes>
+  </enemy19>
+  <enemy20 health="50" speed="350" imagemodifier="0" trigger="1480" image="trap-moon.png">
+   <size y1="0" y2="50" x1="1000" x2="50"/>
+   <direction count="1">
+    <direction0 y1="6500" x1="1000"/>
+   </direction>
+   <hitboxes count="2">
+    <hitbox0 y1="0" y2="44" x1="0" x2="23"/>
+    <hitbox1 y1="0" y2="28" x1="24" x2="24"/>
+   </hitboxes>
+  </enemy20>
+  <enemy21 health="50" speed="160" imagemodifier="1" trigger="1500" image="enemy0.png">
+   <size y1="300" y2="60" x1="1500" x2="60"/>
+   <direction count="7">
+    <direction0 y1="375" x1="1400"/>
+    <direction1 y1="400" x1="1300"/>
+    <direction2 y1="375" x1="1200"/>
+    <direction3 y1="300" x1="1100"/>
+    <direction4 y1="225" x1="1000"/>
+    <direction5 y1="200" x1="900"/>
+    <direction6 y1="225" x1="800"/>
+   </direction>
+   <hitboxes count="2">
+    <hitbox0 y1="18" y2="20" x1="0" x2="60"/>
+    <hitbox1 y1="0" y2="60" x1="30" x2="23"/>
+   </hitboxes>
+  </enemy21>
+  <enemy22 health="50" speed="160" imagemodifier="1" trigger="1520" image="enemy0.png">
+   <size y1="300" y2="60" x1="1520" x2="60"/>
+   <direction count="7">
+    <direction0 y1="375" x1="1420"/>
+    <direction1 y1="400" x1="1320"/>
+    <direction2 y1="375" x1="1220"/>
+    <direction3 y1="300" x1="1120"/>
+    <direction4 y1="225" x1="1020"/>
+    <direction5 y1="200" x1="920"/>
+    <direction6 y1="225" x1="820"/>
+   </direction>
+   <hitboxes count="2">
+    <hitbox0 y1="18" y2="20" x1="0" x2="60"/>
+    <hitbox1 y1="0" y2="60" x1="30" x2="23"/>
+   </hitboxes>
+  </enemy22>
+  <enemy23 health="50" speed="160" imagemodifier="1" trigger="1540" image="enemy0.png">
+   <size y1="300" y2="60" x1="1540" x2="60"/>
+   <direction count="7">
+    <direction0 y1="375" x1="1440"/>
+    <direction1 y1="400" x1="1340"/>
+    <direction2 y1="375" x1="1240"/>
+    <direction3 y1="300" x1="1140"/>
+    <direction4 y1="225" x1="1040"/>
+    <direction5 y1="200" x1="940"/>
+    <direction6 y1="225" x1="840"/>
+   </direction>
+   <hitboxes count="2">
+    <hitbox0 y1="18" y2="20" x1="0" x2="60"/>
+    <hitbox1 y1="0" y2="60" x1="30" x2="23"/>
+   </hitboxes>
+  </enemy23>
+  <enemy24 health="50" speed="160" imagemodifier="1" trigger="1560" image="enemy0.png">
+   <size y1="300" y2="60" x1="1560" x2="60"/>
+   <direction count="7">
+    <direction0 y1="375" x1="1460"/>
+    <direction1 y1="400" x1="1360"/>
+    <direction2 y1="375" x1="1260"/>
+    <direction3 y1="300" x1="1160"/>
+    <direction4 y1="225" x1="1060"/>
+    <direction5 y1="200" x1="960"/>
+    <direction6 y1="225" x1="860"/>
+   </direction>
+   <hitboxes count="2">
+    <hitbox0 y1="18" y2="20" x1="0" x2="60"/>
+    <hitbox1 y1="0" y2="60" x1="30" x2="23"/>
+   </hitboxes>
+  </enemy24>
+  <enemy25 health="50" speed="160" imagemodifier="1" trigger="1580" image="enemy0.png">
+   <size y1="300" y2="60" x1="1580" x2="60"/>
+   <direction count="7">
+    <direction0 y1="375" x1="1480"/>
+    <direction1 y1="400" x1="1380"/>
+    <direction2 y1="375" x1="1280"/>
+    <direction3 y1="300" x1="1180"/>
+    <direction4 y1="225" x1="1080"/>
+    <direction5 y1="200" x1="980"/>
+    <direction6 y1="225" x1="880"/>
+   </direction>
+   <hitboxes count="2">
+    <hitbox0 y1="18" y2="20" x1="0" x2="60"/>
+    <hitbox1 y1="0" y2="60" x1="30" x2="23"/>
+   </hitboxes>
+  </enemy25>
+  <enemy26 health="50" speed="180" imagemodifier="0" trigger="1540" image="enemy0.png">
+   <size y1="480" y2="60" x1="800" x2="60"/>
+   <direction count="1">
+    <direction0 y1="480" x1="2000"/>
+   </direction>
+   <hitboxes count="2">
+    <hitbox0 y1="18" y2="20" x1="0" x2="60"/>
+    <hitbox1 y1="0" y2="60" x1="6" x2="23"/>
+   </hitboxes>
+  </enemy26>
+  <enemy27 health="100" speed="160" imagemodifier="1" trigger="1600" fireinterval="1000" image="enemy2.png">
+   <size y1="120" y2="60" x1="1600" x2="60"/>
+   <direction count="1">
+    <direction0 y1="120" x1="800"/>
+   </direction>
+   <hitboxes count="2">
+    <hitbox0 y1="18" y2="20" x1="0" x2="60"/>
+    <hitbox1 y1="0" y2="60" x1="30" x2="23"/>
+   </hitboxes>
+  </enemy27>
+  <enemy28 health="100" speed="160" imagemodifier="1" trigger="1750" fireinterval="1000" image="enemy2.png">
+   <size y1="380" y2="60" x1="1750" x2="60"/>
+   <direction count="1">
+    <direction0 y1="380" x1="900"/>
+   </direction>
+   <hitboxes count="2">
+    <hitbox0 y1="18" y2="20" x1="0" x2="60"/>
+    <hitbox1 y1="0" y2="60" x1="30" x2="23"/>
+   </hitboxes>
+  </enemy28>
+  <enemy29 health="100" speed="160" imagemodifier="1" trigger="1750" fireinterval="1000" image="enemy2.png">
+   <size y1="280" y2="60" x1="1750" x2="60"/>
+   <direction count="1">
+    <direction0 y1="280" x1="900"/>
+   </direction>
+   <hitboxes count="2">
+    <hitbox0 y1="18" y2="20" x1="0" x2="60"/>
+    <hitbox1 y1="0" y2="60" x1="30" x2="23"/>
+   </hitboxes>
+  </enemy29>
+  <enemy30 health="3000" speed="230" imagemodifier="1" trigger="2046" fireinterval="1050" image="enemy1.png">
+   <size y1="100" y2="120" x1="2048" x2="120"/>
+   <direction directiontype="2" count="3">
+    <direction0 y1="20" x1="1700"/>
+    <direction1 y1="180" x1="1900"/>
+    <direction2 y1="420" x1="1500"/>
+   </direction>
+   <hitboxes count="2">
+    <hitbox0 y1="36" y2="39" x1="0" x2="120"/>
+    <hitbox1 y1="0" y2="120" x1="60" x2="46"/>
+   </hitboxes>
+  </enemy30>
+ </enemies>
+</BYAVSLEVEL>
+ontype="2" >
+    <direction0 y1="20" x1="1700" />
+    <direction1 y1="180" x1="1900" />
+    <direction2 y1="420" x1="1500" />
+   </direction>
+   <hitboxes count="2" >
+    <hitbox0 y1="36" x1="0" y2="39" x2="120" />
+    <hitbox1 y1="0" x1="60" y2="120" x2="46" />
+   </hitboxes>
+  </enemy30>
+ </enemies>
+</BYAVSLEVEL>

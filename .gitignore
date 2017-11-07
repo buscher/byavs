@@ -1,0 +1,9 @@
+*.kdev4
+*.kdevelop
+Makefile
+.lib
+.ui
+.moc
+build
+bin
+pics
