@@ -1,14 +1,17 @@
 SOURCES += main.cpp \
- bxml.cpp
+ ../src/bxml.cpp
 TEMPLATE = app
 
 DESTDIR = ./
 
 QT += xml
 
-HEADERS += bdebug.h \
-bxml.h \
- bglobal.h
+HEADERS += ../src/bdebug.h \
+../src/bxml.h \
+ ../src/bglobal.h
+
+ INCLUDEPATH += ../src/
+
 OBJECTS_DIR = .lib
 
 UI_DIR = .ui
